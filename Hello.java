@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import calculators.AdvancedCalculator;
+
 class Hello {
     public static void main(String a[]) throws ClassNotFoundException {
         // Mobile iPhone = new Mobile();
@@ -20,12 +23,14 @@ class Hello {
         // Dog dog = new Dog("bark");
 
         AdvancedCalculator calculator = new AdvancedCalculator();
-        int sum = calculator.add(36, 8);
-        int difference = calculator.substract(16, 2);
-        int product = calculator.multiply(9, 9);
-        int quotient = calculator.divide(16, 4);
-        int remainder = calculator.remainder(33, 32);
-        System.out.println(remainder);
+        // int sum = calculator.add(36, 8);
+        // int difference = calculator.substract(16, 2);
+        // int product = calculator.multiply(9, 9);
+        // int quotient = calculator.divide(16, 4);
+        // int remainder = calculator.remainder(33, 32);
+        // System.out.println(remainder);
+
+        ArrayList list = new ArrayList<>();
     }
 }
 

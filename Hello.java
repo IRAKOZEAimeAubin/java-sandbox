@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import calculators.AdvancedCalculator;
+import others.Laptop;
 
 class Hello {
     public static void main(String a[]) throws ClassNotFoundException {
@@ -30,7 +31,24 @@ class Hello {
         // int remainder = calculator.remainder(33, 32);
         // System.out.println(remainder);
 
+        int num = 8;
+        Integer num1 = num; // autoboxing
+        int num2 = num1; // auto-unboxing
+
         ArrayList list = new ArrayList<>();
+
+        Laptop obj = new Laptop();
+        obj.setModel("Lenovo Yoga");
+        obj.setPrice(1200);
+
+        Laptop objToo = new Laptop();
+        objToo.setModel("Dell XPS");
+        objToo.setPrice(2000);
+
+        boolean result = obj.equals(objToo);
+
+        System.out.println(result);
+        System.out.println(objToo.toString());
     }
 }
 
